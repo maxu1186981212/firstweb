@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: #000;
+        background-image: url(images/sm.jpg);
+        background-repeat:no-repeat;
+       /* background-attachment: fixed;默认scroll 背景固定*/
+    }
+div{height: 50px;
+width: 120px;
+color:orange;
+background-color:skyblue;
+line-height: 50px;
+display: inline-block;
+text-align: center;/*水平居中*/
+background-image: url(images/bgc.png);
+}
+span p{display:inline-block;
+    width: 120px;
+height: 120px;
+background-color:rgb(40, 43, 44);
+background-image: url(images/man.jpg);
+background-repeat: no-repeat;
+background-position: center center;/*对齐  top,left,right,bottom*/
+/*背景图*/
+}
+.nav{text-align: center}
+    em{
+        color:brown;
+        font-style: normal;
+        
+    }
+    a {
+    text-decoration: underline;/*下滑线*/
+    width:120px;
+    height:50px;
+    background-color:#ccc520;
+    display:inline-block;
+    background-image: url(images/bg.png);
+    text-align: center;
+    line-height: 50px
+    }
+    a:visited{color:pink; }   /*点击之后*/     
+    a:hover{color:orange; background-image: url(images/bgc.png);}/*鼠标路过*/     
+    a:active{color:#FF0000;}/*点击效果*/
+
+</style>
+<body>
+    <span class="nav">
+            <span><a href="#">喜剧</a></span>
+            <span><a href="#">恐怖</a></span>
+            <span><a href="#">科幻</a></span>
+            <span><a href="#">悬疑</a></span>
+            <span><a href="#">惊悚</a></span></span>
+            <br />
+    <div>我是垂直居中</div>
+    <span><p></p> </span>
+    
+    
+</body>
+</html>

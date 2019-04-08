@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    .nav {height:50px;
+    border-top: 3px solid #FF8500;
+    border-bottom: 1px solid #EDEEF0;
+    background-color: #FCFCFC;
+    
+    }
+    .nav a {
+    height:50px; 
+    background-color:red;
+    display:inline-block;
+    color:#4c4c4c;
+    text-decoration: none;
+    padding-left: 18px;
+    padding-right: 18px;
+    font-size: 14px;
+    line-height: 50px;
+    }
+    .nav a:hover{
+        background-color: #edeef0;
+        color: #ff8400;
+    }
+    .articles{
+        width: 380px;
+        height: 283px;
+        border: 1px solid #ccc;
+        margin: 100px;
+        padding: 20px 15px 0; /*上20 左右15 下0*/
+        margin: 0 auto;
+    }
+    .articles h4{
+        color:#202026;
+        font-size: 20px;
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 5px;
+        margin-bottom: 12px;
+    }
+li{
+    list-style:none;
+}
+.articles ul li{
+    height: 38px;
+    line-height: 38px;
+    border-bottom: 1px dashed #ccc;
+}
+.articles ul li a{
+    font-size: 12px;
+    color:#ccc;
+    text-decoration: none;
+}
+ul li a :hover {
+    text-decoration: underline;
+}
+.radius a{
+    width: 172px;
+    height: 172px;
+    display: inline-block;
+    margin: 30px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 172px;
+    background-color: red;
+    color:#fff;
+    text-decoration: none;
+    font-weight: 70px;
+
+}
+.radius a:hover{
+    background-color: #fff;
+    color:red;
+    box-shadow: 4px 4px 4px 4px orange;
+}
+div.nb div{
+width: 150px;
+height: 200px;
+background-color:orange;
+text-align: center;
+line-height: 150px;
+float: right;
+}
+div.nb button{
+    width: 20px;height: 20px;font-size: 20px;
+    margin: 0px;padding: 0px;
+    float:right;
+}
+body{
+        background-color: #000;
+        background-image: url(images/sm.jpg);
+        background-repeat:no-repeat;
+       /* background-attachment: fixed;默认scroll 背景固定*/
+    }
+    </style>
+</head>
+<body>
+    <div class="nav">
+    <a href="#">首页</a>
+    <a href="#">新闻客户端</a>
+    <a href="#">设为首页</a>
+    <a href="#">奔跑吧</a>
+</div>
+
+<div class="articles">
+    <h4>最新文章/New Articles</h4>
+    <ul>
+        <li><a href="#">北京招聘网页设计，平面设计，php</a></li>
+        <li><a href="#">体验javascript的魅力</a></li>
+        <li><a href="#">jquery世界来临</a></li>
+        <li><a href="#">网页设计师的梦想</a></li>
+        <li><a href="#">jquery中的链式编程是什么</a></li>
+    </ul>
+</div>
+
+<div class="radius">
+    <a href="#">文字内容</a>
+    <a href="#">文字内容</a>
+    <a href="#">文字内容</a>
+    <a href="#">文字内容</a>
+</div>
+<div class="nb">
+    <div>广告<button>X</button></div>
+    
+</div>
+<span><p></p> </span>
+</body>
+</html>
